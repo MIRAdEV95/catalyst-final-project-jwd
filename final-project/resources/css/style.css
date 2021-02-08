@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* general styling */
+#title-section {
+  margin: 30px 0px 0px 20px;
+}
+
+/* Style form-control bg */
+.form-control {
+  background-color: rgba(248, 247, 241, 0.954);
+}
+/* Style the buttons */
+.btn {
+  /* background-color: rgb(83, 83, 83); */
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+/* Style the active class (and buttons on mouse-over) */
+.btn:hover {
+  background-color: rgb(102, 100, 100);
+  color: #ffff;
+}
+
+/* date-picker styling*/
+.date-picker {
+  width: 100%;
+  height: auto;
+  padding: 10px 8px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(29, 161, 175);
+  color: #fff;
+}
+
+/* footer Styling*/
+.btm-page ul li {
+  display: inline-flex;
+  justify-items: stretch;
+  padding: 10px;
+}
+.btm-page {
+  /* background-color: rgb(203, 124, 102); */
+  background-color: rgb(154, 111, 111);
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 200px;
+  margin-left: 0px;
+  padding: 8px;
+}
+
+.container-fluid {
+  padding: 0px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* General Styling */
+.header-main {
+  text-align: center;
+  margin-top: 25px;
+}
+body {
+  color: rgb(94, 70, 70);
+}
+/* h5 styling */
+.card-header {
+  text-align: center;
+  margin: 15px 30px;
+  color: rgb(94, 70, 70);
+  background-color: rgb(212, 218, 218);
+}
+/* Style list-items */
+ul li {
+  list-style: none;
+  line-height: 40px;
+  margin-left: 30%;
+  color: rgb(56, 40, 40);
+}
+/* style btn */
+.btn {
+  margin-top: 15px;
+  /* margin-left: 20%; */
+}
+.marginTop30 {
+  margin-top: 30px;
+}
+
+.btn:hover {
+  color: rgb(226, 203, 200);
+}
+/* card-body styling*/
+.card-body {
+  box-shadow: 0 2px 20px 5px rgb(26, 95, 110);
+  background-color: rgb(248, 239, 239);
+}
+.card {
+  margin: 20px 10px;
+}
+/* Error message area */
+.help-block {
+  display: none;
+}
+
+.form-group.has-error .help-block {
+  display: block;
+}
+
+.has-error .help-block {
+  color: #dc3545;
+}
+
+.invisible {
+  display: none;
+  
+}
+#form-validation {
+  width: 100%;
+}

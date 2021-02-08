@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* General Styling */
+.header-main {
+  text-align: center;
+  margin-top: 25px;
+}
+body {
+  color: rgb(94, 70, 70);
+}
+/* h5 styling */
+.card-header {
+  text-align: center;
+  margin: 15px 30px;
+  color: rgb(94, 70, 70);
+  background-color: rgb(212, 218, 218);
+}
+/* Style list-items */
+ul li {
+  list-style: none;
+  line-height: 40px;
+  margin-left: 30%;
+  color: rgb(56, 40, 40);
+}
+/* style btn */
+.btn {
+  margin-top: 15px;
+  margin-left: 20%;
+}
+
+.btn:hover {
+  color: rgb(210, 188, 185);
+}
+
+/* card-body styling*/
+.card-body {
+  box-shadow: 0 2px 20px 5px rgb(26, 95, 110);
+  background-color: rgba(218, 157, 157, 0.433);
+  /* background-color: rgb(212, 216, 197); */
+}
+.card {
+  margin: 20px 10px;
+}
