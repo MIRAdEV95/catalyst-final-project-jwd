@@ -52,7 +52,13 @@ function formValidation(event) {
     return;
   }
 
-  alert("Your form is validated");
+  alert("Your form is submitted");
+  $taskName.value = "";
+  $description.value = "";
+  $assignedPerson.value = "";
+  $assignedGroup.value = "";
+  $dueDate.value = "";
+  $taskNumber.value = "";
 }
 
 let formSubmitButton = document.querySelector("#subButton");

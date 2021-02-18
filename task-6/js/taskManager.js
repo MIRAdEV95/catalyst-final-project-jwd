@@ -39,7 +39,7 @@ class TaskManager {
                   <li>Description: ${description}</li>
                   <li> Assigned To: ${assignedTo}</li>
                   <li>Due Date: ${dueDate}</li>
-                  <button type="button" class="btn btn-primary btn-sm">${status}</button>
+                  <button type="button" class="btn btn-info btn-sm">${status}</button>
                 
 
               </ul>

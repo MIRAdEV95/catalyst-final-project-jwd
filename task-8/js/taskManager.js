@@ -53,7 +53,7 @@ class TaskManager {
                   <li>Assigned to: ${assignedTo}</li>
                   <li>Due Date: ${dueDate}</li>
                   <button type="button" class="btn btn-primary btn-sm">${status}</button>
-                  <button type="button" class="btn btn-secondary btn-sm done-button ${
+                  <button type="button" class="btn btn-success btn-sm done-button ${
                     status == "Done" ? "invisible" : ""
                   }">Mark As Done</button>
 

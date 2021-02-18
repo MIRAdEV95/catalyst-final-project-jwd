@@ -73,7 +73,7 @@ function formValidation(event) {
   $taskNumber.value = "";
   alert("Task added successfully");
   console.log("Task manager", taskManager.tasks);
-  console.log(taskHtml);
+  console.log(taskManager.createTaskHtml(task));
 }
 
 let formSubmitButton = document.querySelector("#subButton");
